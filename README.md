@@ -4,5 +4,6 @@
 - Triển khai
 
     `$ ansible-playbook -i hosts site.yml
+
     `$ ansible-playbook -i hosts site.yml -limit '192.168.100.10'
 
