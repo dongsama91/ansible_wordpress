@@ -1,0 +1,12 @@
+---
+  
+
+- hosts: all
+  gather_facts: no
+  user: root
+  roles:
+    - common
+    - mysql 
+    - nginx
+    - php-fpm
+    - wordpress
